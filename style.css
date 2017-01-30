@@ -1,5 +1,6 @@
 body {
-  background: red;
+  margin: 0;
+  background: #fefefe;
 }
 
 ul {
@@ -8,22 +9,18 @@ ul {
   list-style: none;
 }
 
-li {
-  font-size: 40px;
+.home-nav {
+  border-bottom: 0.1rem #ddd solid;
 }
 
-/* Select all elements
-  li within ul elements */
-ul .nav-list__item {
-  color: blue;
+.home-nav__logo {
+  display: inline-block;
+}
+
+.nav-list {
+  display: inline-block;
 }
 
 .nav-list__item {
-  font-size: 20px;
-
-  color: green
-}
-
-ul .foo {
-  color: black;
+  display: inline-block;
 }
